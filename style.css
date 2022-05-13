@@ -77,8 +77,31 @@ h1, h2 {
     color: #3c3c3c;
 }
 
+.section_2 {
+    background: lightgreen;
+    max-width: 1219px;
+    margin: 0 auto;
+}
+
 .card1, .card2, .card3 {
     padding: 20px 30px;
     display: flex;
 }
 
+.container_3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section_3 {
+    background: lightblue;
+    max-width: 1219px;
+    margin: 0 auto;
+    
+}
+
+.figure {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
