@@ -9,20 +9,23 @@ body {
    color: #eeee;
    font-size: 18px;
    font-weight: 300;
-   t
 }
 
 .site_header {
     background-color: darkolivegreen;
     width: 100%;
-    position: fixed;
-    top: 0;
+    /* position: fixed;
+    top: 0; */
 }
 
 .main_container {
     display: flex;
     justify-content: center;
     align-content: space-between;
+    max-width: 1219px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navigation_container {
@@ -34,13 +37,14 @@ body {
     margin: 0 auto;
     padding-left: 50px;
     padding-right: 50px;
+    
 
 }
 
 .logo_img {
     width: 150px;
     padding: 10px;
-   align-self: flex-start;
+    align-self: flex-start;
 }
 
 .nav {
@@ -48,9 +52,33 @@ body {
 }
 
 .section_1 {
-    background: url(img/DSC01214.jpg);
-    background-size: cover;
-    margin-top: 150px;
-    padding-top: 150px;
-    padding-bottom: 150px
+    width: 1219px auto;
+    background: url(img/DSC05232.jpg);
+    background-size:  cover;
+    /* margin-top: 50px; */
+    border: 1px solid black;
+    height: 400px; 
 }
+    
+/* .main_title {
+    margin-top: 180px;
+    text-align: center;
+    letter-spacing: 1px;
+} */
+
+.container {
+    max-width: 1219px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+    letter-spacing: 1px;
+    color: #3c3c3c;
+}
+
+.card1, .card2, .card3 {
+    padding: 20px 30px;
+    display: flex;
+}
+
