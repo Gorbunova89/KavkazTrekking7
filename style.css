@@ -2,6 +2,7 @@ body {
     font-family:'Radio Canada', sans-serif;
     margin: 0 auto;
     padding: 0;
+    background: rgb(28, 29, 31);
 }
 
 .link{
@@ -20,6 +21,10 @@ body {
     width: 100%;
     /* position: fixed;
     top: 0; */
+}
+
+.main_title {
+    color: lightgray;
 }
 
 .main_container {
@@ -82,7 +87,7 @@ h1, h2 {
 }
 
 .section_2 {
-    background: lightgreen;
+    background: lightgray;
     max-width: 1219px;
     margin: 0 auto;
 }
@@ -123,7 +128,7 @@ h1, h2 {
 }
 
 .section_3 {
-    background: lightblue;
+    background: lightgray;
     max-width: 1219px;
     margin: 0 auto;
     
