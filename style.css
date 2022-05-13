@@ -105,3 +105,31 @@ h1, h2 {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+.section_4 {
+    background: lightgray;
+    max-width: 1219px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.img_about {
+    width: 350px;
+}
+
+.img {
+    float: left;
+    padding-right: 30px;
+}
+
+.titles {
+    padding-top: 20px;
+}
+
+.fig_title {
+    margin: auto;
+}
+
+.fig_foto {
+    padding-top: 20px;
+}
