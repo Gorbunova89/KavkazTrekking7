@@ -3,6 +3,8 @@ body {
     margin: 0 auto;
     padding: 0;
     background: rgb(28, 29, 31);
+    height: 100%;
+    /* position: relative; */
 }
 
 .link{
@@ -194,15 +196,19 @@ h1, h2 {
 
 .footer {
     background-color: darkolivegreen;
-    height: 400px;
+    height: 310px;
     display: block;
     flex-direction: column;
     text-align: center;
+    /* position:absolute;
+    bottom: 0; */
+    width: 100%;
     
 }
 
 .logo_mini {
     width: 150px;
+    padding-bottom: 10px;
 }
 
 .nav_f {
@@ -220,6 +226,27 @@ h1, h2 {
 
 .link_f:hover {
     border-bottom: 1px solid aliceblue;
+}
+
+.social {
+    padding:  0px 10px;
+    /* border: 1px solid black; */
+}
+
+.icon {
+    width: 50px;
+    padding: 10px;
+    
+}
+
+.icon:hover {
+    opacity: 80%;
+}
+
+.text_f {
+    color: aliceblue;
+    font-weight: 200;
+    /* border: 1px solid black; */
 }
 
 
