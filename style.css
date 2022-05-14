@@ -25,6 +25,7 @@ body {
 
 .main_title {
     color: lightgray;
+    letter-spacing: 3px;
 }
 
 .main_container {
@@ -61,24 +62,20 @@ body {
 }
 
 .section_1 {
-    width: 1219px auto;
+    width: 1219px;
+    margin: 0 auto;
     background: url(img/DSC05232.jpg);
     background-size:  cover;
     /* margin-top: 50px; */
     border: 1px solid black;
     height: 400px; 
 }
-    
-/* .main_title {
-    margin-top: 180px;
-    text-align: center;
-    letter-spacing: 1px;
-} */
 
-.container {
+
+/* .container {
     max-width: 1219px;
     margin: 0 auto;
-}
+} */
 
 h1, h2 {
     text-align: center;
