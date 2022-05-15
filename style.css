@@ -271,7 +271,11 @@ h1, h2 {
 .container_7 {
     width: 1219px;
     margin: 0 auto;
-    display: block;
+    display: flex;
+}
+
+.blog1, .blog2, .blog3, .blog4 {
+    width: 300px;
 }
 
 .blog1 {
