@@ -258,4 +258,14 @@ h1, h2 {
     flex-wrap: wrap;
 }
 
+.video {
+    padding-bottom: 35px;
+}
+
+.titles_6 {
+    color: lightgray;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+
 
