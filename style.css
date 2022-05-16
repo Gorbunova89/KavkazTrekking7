@@ -351,3 +351,39 @@ h1, h2 {
 .section_7, .section_4, .section_2, .section_1 {
     margin-bottom: 50px;
 }
+
+.container_8 {
+    width: 1219px;
+    margin: 0 auto;
+}
+
+.slider middle{
+    /* width: 1219px;
+    margin: 0 auto; */
+}
+
+.middle {
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    /* transform: translateX(-50%); */
+    /* position: absolute;
+    bottom: 16px;
+    left: 50px; */
+
+}
+
+/* Свойства кнопок */
+.bar {
+    height: 8px;
+    width: 30px;
+    margin: 6px;
+    cursor: pointer;
+    background-color: #888888;
+    opacity: .5;
+    border-radius: 10px;
+    transition: all .4s ease;
+}
