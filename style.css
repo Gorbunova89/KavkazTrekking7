@@ -272,16 +272,17 @@ h1, h2 {
     width: 1219px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .blog1, .blog2, .blog3, .blog4 {
-    width: 300px;
+    width: 270px;
 }
 
-.blog1 {
+.blog1, .blog2, .blog3, .blog4  {
     background: lightseagreen;
     border-radius: 10px;
-    padding: 20px 50px;
+    padding: 15px 15px;
 }
 
 .blog_title_a {
