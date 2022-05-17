@@ -94,6 +94,32 @@
 
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        /* width: 100px; */
+        margin: 0 auto;
+    }
+    
+    .site_header{
+        width: 100%;
+        max-width: 767px;
+    
+    }
+
+    .main_container {
+        width: 100%;
+        /* max-width: 767px;
+        min-width:480px */
+        margin: 0 auto;
+        /* max-width: 767px; */
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
 
 
     

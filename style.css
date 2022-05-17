@@ -37,8 +37,9 @@ body {
     align-content: space-between;
     max-width: 1219px;
     width: 100%;
+    margin: 0 auto;
     margin-left: auto;
-    margin-right: auto;
+    
 }
 
 .navigation_container {
