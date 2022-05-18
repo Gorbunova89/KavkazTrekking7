@@ -101,24 +101,62 @@
     }
     
     .site_header{
-        width: 100%;
-        max-width: 767px;
-    
+        width: 640px;
     }
 
-    .main_container {
+    .navigation_container {
+        width: 80%;
+    }
+
+    .logo_img {
+        width: 100px;
+        padding: 10px;
+        align-self: flex-start;
+    }
+
+    .main_container {    
         width: 100%;
-        /* max-width: 767px;
-        min-width:480px */
-        margin: 0 auto;
-        /* max-width: 767px; */
+    }
+
+    .section_2, .section_3, .section_4, .footer {
+        width: 610px;
     }
 
     .container {
-        width: 100%;
-        margin: 0 auto;
+        width:100%x;
+        /* margin: 0 auto; */
+
     }
+
+    .container_7 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+        width: 600px;
+        margin: 0;
+    }
+
+    .blog1, .blog2, .blog3, .blog4 {
+        width: 250px;
+        padding-left: 10px 10px 0 10px;
+
+    }
+
+    /* .foto {
+        width: 200px;
+    } */
+
+    .section_4 {
+        background: lightgray;
+        max-width: 600px;
+        margin: 0 auto;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
 }
+
 
 
 
